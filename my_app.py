@@ -24,7 +24,7 @@ st.write(
 )
 
 st.write(
-    "A sua determinação permite inferências ecológicas relevantes e pode subsidiar inúmeras aplicações práticas, tais como em Estudos de Impactos Ambientais, Gestão de Unidades Conservação,eo Manejo Sustentável de Recursos Naturais. No vídeo abaixo, faço uma breve apresentação sobre o tema."
+    "A sua determinação permite inferências ecológicas relevantes e pode subsidiar inúmeras aplicações práticas, tais como em Estudos de Impactos Ambientais, Gestão de Unidades Conservação,e o Manejo Sustentável de Recursos Naturais."
 )
 
 st.write("## Instrução de uso")

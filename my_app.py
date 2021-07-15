@@ -9,7 +9,7 @@ st.title("Gerador de Curva de Rarefação 🌿")
 st.write("## Apresentação")
 
 st.write(
-    "Bem vindo! Meu nome é [Pedro Higuchi](https://www.linkedin.com/in/pedro-higuchi-4085a81b/), Engenheiro Florestal, Doutor em Ciências Florestais pela Universidade Federal de Lavras e, atualmente, Professor Associado, da Universidade do Estado de Santa Catarina,  onde leciono no Curso de Engenheira Florestal."
+    "Bem vindo! Meu nome é [Pedro Higuchi](https://www.linkedin.com/in/pedro-higuchi-4085a81b/), Engenheiro Florestal, Doutor em Ciências Florestais pela Universidade Federal de Lavras e, atualmente, Professor Associado da Universidade do Estado de Santa Catarina,  onde leciono no Curso de Engenharia Florestal."
 )
 
 st.write(

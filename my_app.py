@@ -31,7 +31,7 @@ st.write("## Instrução de uso")
 st.write("### 1. Preparação do arquivo de entrada:")
 
 st.write(
-    "O arquivo de entrada deve estar no formato csv e conter duas colunas: 'especies' (sem acento) e 'n'. A coluna deve ser preenchida com a relação das espécies e a coluna 'n', com o número total de indivíduos para cada espécie."
+    "O arquivo de entrada deve estar no formato csv e conter duas colunas: 'Espécies' e 'n'. A coluna deve ser preenchida com a relação das espécies e a coluna 'n', com o número total de indivíduos para cada espécie."
 )
 st.write("Exemplo:")
 
@@ -49,19 +49,19 @@ st.write(
     )
 )
 
-st.write("### 2. Inserir arquivo:")
+st.write("### 2. Inserir arquivo e gerar curva:")
 
 dados = st.file_uploader("Escolha o arquivo csv", type={"csv", "txt"})
 if dados is not None:
-    df = pd.read_csv(dados, delimiter=";")
+    df = pd.read_csv(dados, delimiter=";", encoding="latin1")
     df_long = df.reindex(df.index.repeat(df.n))
     sp_shuffle = []
     for i in range(100):
-        sp_shuffle.append(((~df_long.sample(frac=1)["Especies"].duplicated()).cumsum()))
+        sp_shuffle.append(((~df_long.sample(frac=1)["Espécies"].duplicated()).cumsum()))
     mean_rarefy_curve = np.mean(sp_shuffle, axis=0)
 
     fig = px.line(
-        x=np.arange(len(df_long)),
+        x=np.arange(1, len(df_long) + 1),
         y=mean_rarefy_curve,
         title="Curva de rarefação pelo método de aleatorização (n=100)",
         labels={

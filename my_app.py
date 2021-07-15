@@ -38,7 +38,7 @@ st.write("Exemplo:")
 st.write(
     pd.DataFrame(
         {
-            "Especies": [
+            "Espécies": [
                 "Araucaria angustifolia",
                 "Podocarpus lambertti",
                 "Myrcia oblongata",

@@ -26,10 +26,6 @@ st.write(
 st.write(
     "A sua determinação permite inferências ecológicas relevantes e pode subsidiar inúmeras aplicações práticas, tais como em Estudos de Impactos Ambientais, Gestão de Unidades Conservação,eo Manejo Sustentável de Recursos Naturais. No vídeo abaixo, faço uma breve apresentação sobre o tema."
 )
-st.write(" No vídeo abaixo, faço uma breve apresentação sobre o tema.")
-
-st.video("https://www.youtube.com/watch?v=-_MwgHBL1cY")
-
 
 st.write("## Instrução de uso")
 st.write("### 1. Preparação do arquivo de entrada:")

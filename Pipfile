@@ -8,6 +8,7 @@ pandas = "*"
 numpy = "*"
 streamlit = "*"
 plotly = "*"
+jsonschema = "==3.0.2"
 
 [dev-packages]
 

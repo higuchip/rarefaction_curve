@@ -40,7 +40,7 @@ st.write(
         {
             "Espécies": [
                 "Araucaria angustifolia",
-                "Podocarpus lambertti",
+                "Podocarpus lambertii",
                 "Myrcia oblongata",
                 "Ilex paraguariensis",
             ],
